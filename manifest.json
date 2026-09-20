@@ -1,8 +1,8 @@
 {
-  "version": "0.9.3.4",
-  "min_current_version": "0.9.3.1",
-  "package_url": "ROBO_VISION_AI_build_0.9.3.4_BOOTSTRAP_TEST_FIX.zip",
-  "sha256": "a1c30ad9c239434f8140b6079b5240590e7c9df31c78f60ffbc125fab76964b6",
-  "release_notes": "Bootstrap updater compatibility fix: candidate carries its own project-local pytest basetemp so ROBO 0.9.3.1 can test it without Windows pytest-current permission failures. Keeps automatic safe update, health check and rollback logic.",
+  "version": "0.9.4.0",
+  "min_current_version": "0.9.3.4",
+  "package_url": "ROBO_VISION_AI_build_0.9.4.0_PORTABLE_SELF_REPAIR.zip",
+  "sha256": "15028e1d23cf751cffc9e2f91c85fb377cf7354376cca65a3df3fbd8c2a53e21",
+  "release_notes": "Portable Bootstrap & Self-Repair foundation: permanent GitHub update feed, portable online setup, optional offline dependency cache, SELF_REPAIR, safe alternate supported installation methods, environment health checks, rollback protection, and same-version activation protection.",
   "max_bytes": 500000000
 }
