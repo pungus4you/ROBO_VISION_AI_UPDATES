@@ -1,8 +1,8 @@
 {
-  "version": "0.9.4.1",
+  "version": "0.9.4.3",
   "min_current_version": "0.9.3.4",
-  "package_url": "ROBO_VISION_AI_build_0.9.4.1_BOOTSTRAP_CV2_ISOLATION_FIX.zip",
-  "sha256": "e397fdb19203c1a3a2040c624cde21ac48a941f6be654392e22a708d9ee960a0",
-  "release_notes": "Bootstrap CV2 isolation fix: prevents candidate validation from borrowing a broken or locked OpenCV environment from the currently running ROBO build, keeps portable/self-repair features, and preserves safe automatic update and rollback behavior.",
+  "package_url": "ROBO_VISION_AI_build_0.9.4.3_CV2_FORCE_REPAIR.zip",
+  "sha256": "ccccb585e28b5ceec12c13ed2af2d42b2a59a887022a4628de2f255c2fb1edb8",
+  "release_notes": "CV2 force-repair release: removes damaged OpenCV files, reinstalls OpenCV cleanly, verifies cv2 plus Ultralytics plus Torch, and keeps portable setup, self-repair, automatic update, health-check, and rollback protections.",
   "max_bytes": 500000000
 }
