@@ -1,8 +1,8 @@
 {
-  "version": "0.9.4.0",
+  "version": "0.9.4.1",
   "min_current_version": "0.9.3.4",
-  "package_url": "ROBO_VISION_AI_build_0.9.4.0_PORTABLE_SELF_REPAIR.zip",
-  "sha256": "15028e1d23cf751cffc9e2f91c85fb377cf7354376cca65a3df3fbd8c2a53e21",
-  "release_notes": "Portable Bootstrap & Self-Repair foundation: permanent GitHub update feed, portable online setup, optional offline dependency cache, SELF_REPAIR, safe alternate supported installation methods, environment health checks, rollback protection, and same-version activation protection.",
+  "package_url": "ROBO_VISION_AI_build_0.9.4.1_BOOTSTRAP_CV2_ISOLATION_FIX.zip",
+  "sha256": "e397fdb19203c1a3a2040c624cde21ac48a941f6be654392e22a708d9ee960a0",
+  "release_notes": "Bootstrap CV2 isolation fix: prevents candidate validation from borrowing a broken or locked OpenCV environment from the currently running ROBO build, keeps portable/self-repair features, and preserves safe automatic update and rollback behavior.",
   "max_bytes": 500000000
 }
